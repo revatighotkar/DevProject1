@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 variable "region" {
-  description = "AWS region where the instance will be created"
+  description = "AWS region  created"
   type        = string
   default     = "us-east-1"
 }
